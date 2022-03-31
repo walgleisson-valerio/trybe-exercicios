@@ -1,0 +1,38 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 65px;
+    color: orange;
+    text-align: center;
+}
+
+body {
+    font-size: 16px;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+ul {
+    background-color: rgb(180, 180, 200);
+    font-style: italic;
+    line-height:30px;
+    text-decoration: underline;
+}
+
+.lista-e-paragrafo {
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+#amarelo{ 
+    background-color: yellow;
+}
+
+#vermelho{ 
+    background-color: red;
+}
+
+#marrom{ 
+    background-color: brown;
+}
