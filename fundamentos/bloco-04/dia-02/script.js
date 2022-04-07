@@ -1,15 +1,11 @@
 /*
-Utilizando for , descubra qual o menor valor contido no array e imprima-o;
+Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
 */
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numbers = [];
 
-let smaller = numbers[0];
-
-for (let number of numbers){
-    if (number < smaller){
-     smaller = number;
-    }
+for (let i = 0; i < 25; i += 1){
+    numbers[i] = numbers.push(i);
 }
 
-console.log(smaller); 
+console.log(numbers); 
