@@ -1,5 +1,5 @@
 /*
-Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
+Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
 */
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
@@ -10,4 +10,6 @@ for (let number of numbers){
     sum += number;
 }
 
-console.log(sum);
+let average = sum / numbers.length;
+
+console.log(average);
