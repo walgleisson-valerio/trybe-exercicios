@@ -71,10 +71,18 @@
           document.getElementsByTagName("h1")[0].innerText = "Exercício 5.1 - JavaScript";
         }
 
+        function paragrafoMaiusculo(){
+          const paragrafo = document.getElementsByTagName("p");
+          for (let i in paragrafo){
+            paragrafo[i].style.textTransform = "uppercase";
+          }
+        }
+
         mudaDescricao();
         verdeTrybe();
         corCentro();
         corrigeH1();
+        paragrafoMaiusculo();
 
     </script>
   </body>
