@@ -15,6 +15,7 @@ createDaysOfTheWeek();
 
 // Escreva seu código abaixo.
 
+//criar dias do mês e adicionar a lista
 function createDaysOfTheMounth(){
   const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 
@@ -37,4 +38,17 @@ function createDaysOfTheMounth(){
 
   }
 }
+
 createDaysOfTheMounth();
+
+//ex 02
+function createHolidayButton(name) {
+  const holidayButton = document.createElement("button");
+  holidayButton.innerText = name;
+  holidayButton.id = "btn-holiday";
+
+  const container = document.querySelector(".buttons-container");
+  container.appendChild(holidayButton);
+}
+
+createHolidayButton("Feriados");
