@@ -52,3 +52,19 @@ function createHolidayButton(name) {
 }
 
 createHolidayButton("Feriados");
+
+//ex 03
+//adiciona clique do botão
+document.getElementById("btn-holiday").addEventListener("click", function(){
+  const feriados = document.getElementsByClassName("holiday");
+  const originalColor = "rgb(238, 238, 238)";
+  const highlightedColor = "rgba(255, 0, 0, 0.2)" ;
+    
+  for (let i = 0; i < feriados.length; i += 1){
+    if (feriados[i].style.backgroundColor === highlightedColor){
+      feriados[i].style.backgroundColor = originalColor;
+    } else {
+      feriados[i].style.backgroundColor = highlightedColor; 
+    }
+  }
+})
