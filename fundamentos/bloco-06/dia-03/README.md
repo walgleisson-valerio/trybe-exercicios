@@ -4,4 +4,4 @@ Exercício copiado do repositório pricipal [exercise-tech-gallery](https://gith
 
 Fainalizado com sucesso! ✅
 
-![exercício finalizado](fundamentos/bloco-06/dia-03/images/exercise-done.png)
+![exercício finalizado](https://github.com/walgleisson-valerio/trybe-exercicios/blob/56512793cb6d667d2773ea662b3d34da02bb7d02/fundamentos/bloco-06/dia-03/images/exercise-done.png)
