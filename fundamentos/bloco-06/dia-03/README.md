@@ -4,4 +4,4 @@ Exercício copiado do repositório pricipal [exercise-tech-gallery](https://gith
 
 Fainalizado com sucesso! ✅
 
-![exercício finalizado)[/images/exercise-done.png]
+![exercício finalizado](/images/exercise-done.png)
